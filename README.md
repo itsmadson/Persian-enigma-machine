@@ -4,15 +4,21 @@ Welcome to the Persian Enigma Machine project! This project implements a simulat
 
 ## Table of Contents
 - [Introduction](#introduction)
+- [YouTube Video](#youtube-video)
 - [Features](#features)
 - [Enigma Machine Overview](#enigma-machine-overview)
 - [Why Persian Alphabet?](#why-persian-alphabet)
 - [Contributing](#contributing)
 - [License](#license)
 
+
 ## Introduction
 
 The Persian Enigma Machine project is a Python-based simulation of the historic Enigma machine, adapted to use the Persian alphabet. It provides a glimpse into the fascinating world of cryptographic devices and their role in securing military communications during World War II. This implementation demonstrates the mechanics of encryption and decryption used by the original Enigma machine but with a unique linguistic flavor.
+
+## YouTube Video
+
+[Watch my yt video explaining the project](https://www.youtube.com/watch?v=e_Xiu5xouE8)
 
 ## Features
 
