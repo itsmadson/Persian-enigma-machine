@@ -30,13 +30,13 @@ class PersianEnigmaGUI:
         container = tk.Frame(self.root, bg='black')
         container.pack(padx=20, pady=20, fill='both', expand=True)
         title = tk.Label(container, 
-                        text="دستگاه رمز پارسی", 
+                        text="ﯽﺳﺭﺎﭘ ﺰﻣﺭ ﻩﺎﮕﺘﺳﺩ" , 
                         font=(self.persian_font, 16, 'bold'),
                         bg='black', 
                         fg='white')
         title.pack(pady=(0, 20))
         input_label = tk.Label(container, 
-                             text=":متن ورودی", 
+                             text="ىﺩﻭﺭﻭ ﻦﺘﻣ ", 
                              font=(self.persian_font, 12),
                              bg='black', 
                              fg='white',
@@ -58,9 +58,9 @@ class PersianEnigmaGUI:
         input_scroll.config(command=self.input_text.yview)
         btn_frame = tk.Frame(container, bg='black')
         btn_frame.pack(fill='x', pady=(0, 20))
-        button_texts = [("رمزنگاری", self.encrypt_text),
-                       ("پاک کردن", self.clear_text),
-                       ("روتور جدید", self.new_rotor)]
+        button_texts = [("ىﺭﺎﮕﻧﺰﻣﺭ" , self.encrypt_text),
+                       ("ﻥﺩﺮﻛ  کﺎﭘ" , self.clear_text),
+                       ("ﺪﯾﺪﺟ ﺭﻮﺗﻭﺭ" , self.new_rotor)]
         for text, command in button_texts:
             btn = tk.Button(btn_frame, 
                           text=text,
@@ -74,7 +74,7 @@ class PersianEnigmaGUI:
                           pady=5)
             btn.pack(side='right', padx=5)
         output_label = tk.Label(container, 
-                              text=":متن رمزنگاری شده", 
+                              text="ﻩﺪﺷ ىﺭﺎﮕﻧﺰﻣﺭ ﻦﺘﻣ", 
                               font=(self.persian_font, 12),
                               bg='black', 
                               fg='white',
